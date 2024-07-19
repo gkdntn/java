@@ -14,6 +14,7 @@ public class Test19 {
 				a ++;
 				b += c;
 				b -= 60;
+				for (int g = 0; g < 20; g++) {
 				if (b >= 60) {
 					a++;
 					b -= 60;
@@ -21,7 +22,10 @@ public class Test19 {
 				if (a >= 24) {
 					a -= 24;
 				}
-				
+				if (b < 60) {
+					break;
+				}
+				}
 				
 			} else if ((b + c) < 60) {
 				b += c;
